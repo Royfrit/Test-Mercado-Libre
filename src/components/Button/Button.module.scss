@@ -1,0 +1,12 @@
+@import '../../styles/colors';
+
+.wrapButton {
+    background: $Blue;
+    border: none;
+    border-radius: 4px;
+    width: 140px;
+    height: 34px;
+    color: $White;
+    font-weight: 700;
+}
+

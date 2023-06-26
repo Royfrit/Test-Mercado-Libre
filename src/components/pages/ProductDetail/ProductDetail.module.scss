@@ -1,0 +1,37 @@
+@import '../../../styles/colors';
+
+.wrapProductDetail{
+    background: $White;
+    width: 75%;
+    margin: 32px auto;
+    .flex {
+        display: flex;
+        justify-content: space-evenly;
+        .titleSoldQuantity {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 0;
+            margin-top: 32px;
+        }
+        .title {
+            font-size: 20px;
+            width: 80%;
+            font-weight: 600;
+        }
+        .image {
+            width: 40%;
+        }
+        .amount {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    .titleDetails {
+        margin-left: 32px;
+    }
+    .description {
+        padding: 0 32px 32px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+}

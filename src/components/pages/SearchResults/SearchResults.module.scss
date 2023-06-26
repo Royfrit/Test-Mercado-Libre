@@ -1,0 +1,43 @@
+@import '../../../styles/colors';
+.wrapSeachResults {
+    width: 70%;
+    background-color: $White;
+    margin: auto;
+    margin-top: 40px;
+    .padding {
+        padding: 16px 16px;
+        cursor: pointer;
+        .constenResults {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .imageResults{
+                width: 180px;
+            }
+            .titleContent {
+                width: -webkit-fill-available;
+                .titleResultsPrince{
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: 32px;
+                }
+                .titleResults{
+                    font-size: 18px;
+                    width: 80%;
+                }
+            }
+            .titleAddress {
+                font-size: 12px;
+                font-weight: 400;
+                width: 15%;
+            }
+     
+        }
+        .border {
+            border: 1px solid #ededed;
+            margin-top: 10px;
+        }
+    }
+
+    
+}
